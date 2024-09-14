@@ -1,0 +1,238 @@
+:root{
+    
+    --primaryColor: #440381;
+    --secondaryColor: #fed700;
+    --hoverColor: #e5fcdd;
+    --font-color: gray;
+    --font-type : "Noto Kufi Arabic";
+}
+
+body{
+    direction: rtl;
+}
+
+.navBar{
+    position: relative;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    filter: drop-shadow(0px 0px 5px gray);
+}
+
+#logo{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+#burger{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    top: 20%;
+    right: 1%;
+    z-index: 1;
+    visibility: hidden;
+
+}
+
+#burger:hover{
+    filter: drop-shadow(1px 1px 30px purple);
+    cursor:pointer;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    direction: rtl;
+    align-items: center;
+    background-color: white;
+    /* filter: drop-shadow(0px 1px 10px gray); */
+    width: fit-content;
+    height: fit-content;
+    padding: 0px 10px;
+    overflow: hidden;
+    position: sticky;
+    top: 0%;
+    z-index: 0;
+}
+
+.navLink{
+    display: inline-block;
+    margin: 0 ;
+    text-decoration: none;
+    color: #440381;
+    font-family:var(--font-type) ;
+    font-weight: bold;
+    font-size: 12px;
+    width: 80px;
+    text-align: center;
+}
+
+.navLink:hover{
+    filter: drop-shadow(2px 0px 10px);
+    border-bottom: 3px solid #440381;
+    transform: scaleX(20px);
+}
+
+.startImage{
+    display: block;
+    width: 95%;
+    margin: 50px auto;
+}
+
+
+
+h2{
+    background-color: var(--secondaryColor);
+    width: 100px;
+    text-align: center;
+    color: var(--primaryColor);
+    margin: auto;
+    padding: 10px;
+    font-family: var(--font-type);
+    border-radius: 10px;
+}  
+
+h3{
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    font-family: var(--font-type);
+}
+
+.serviceDescription{
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+    font-family: var(--font-type);
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    width: 50%;
+}
+
+.serviceImage{
+    width: 200px;
+    height: 200px;
+    border-radius: 120px 0 120px 120px;
+    background-color: red;
+}
+
+.servicesContainer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: green; */
+    justify-content: center;
+    align-items: center;
+    font-family: Ubuntu;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.aboutContainer{
+    margin-top: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutText{
+    color:var(--font-color);
+    display: block;
+    font-family: var(--font-type);
+    font-weight: bold;
+    
+}
+
+.aboutImage{
+    display: block;
+    width: 30%;
+    margin-left: 20px;
+    filter: drop-shadow(1px 1px 10px rgb(187, 187, 187));
+    border-radius: 10px;
+}
+
+
+
+
+
+.contact{
+    background-color: #440381;
+    padding: 50px;
+    color: white;
+    font-family: Ubuntu;
+    
+}
+
+.contactInfo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #fed700;
+    font-weight: bold;
+}
+
+.social{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px auto;
+}
+
+footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Ubuntu;
+}
+
+a{
+    color: #fed700;
+}
+
+
+
+
+@media (max-width:900px) {
+    /* body{
+        background-color: green;
+    } */
+
+    .nav{
+        flex-direction: column;
+        margin-right: 50px;
+        visibility: hidden;
+    }
+
+    .navBar{
+        overflow: hidden;
+    }
+
+    #burger{
+        visibility: visible;
+    }
+
+    .aboutContainer{
+        flex-direction: column;
+    }
+}

@@ -1,8 +1,29 @@
+h3{
+    font-family: var(--font-type);
+    font-size: 14px;
+    color: var(--primaryColor);
+    background-color: var(--secondaryColor);
+    margin-bottom:40px;
+}
 
+.applyButton{
+    margin-top:50px;
+    padding: 0px 40px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: var(--font-type);
+    font-weight: bold;
+    color:var(--primaryColor);
+    border: 5px solid var(--primaryColor);
+}
 
+.applyButton:hover{
+    background-color: var(--secondaryColor);
+    border: 5px solid var(--secondaryColor);
+    cursor:pointer;
+}
 .tracks{
     margin-top: 30px;
-    background-color: beige;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -11,11 +32,14 @@
 
 .track{
     width: 400px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
+    padding: 60px 10px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow: 0 0 10px gray;
 }
 
 .stage{

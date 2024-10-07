@@ -130,19 +130,23 @@ footer{
 @keyframes expand {
     from{
         height: 50px;
+        visibility: hidden;
     }
 
     to{
         height: 200px;
+        visibility: visible;
     }
 }
 
 @keyframes shrink {
     from{
         height: 200px;
+        visibility: visible;
     }
 
     to{
         height: 50px;
+        visibility: hidden;
     }
 }

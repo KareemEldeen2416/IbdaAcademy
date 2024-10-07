@@ -14,7 +14,6 @@ body{
 .navBar{
     position: relative;
     height: 50px;
-    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,6 +21,7 @@ body{
     top: 0;
     z-index: 10;
     filter: drop-shadow(0px 0px 5px gray);
+    background-color: white;
 }
 
 #logo{
@@ -106,12 +106,16 @@ footer{
 
     .nav{
         flex-direction: column;
+        justify-content: center;
         margin-right: 50px;
         visibility: hidden;
+        height: 50px;
     }
 
     .navBar{
         overflow: hidden;
+        height: fit-content;
+        background-color: white;
     }
 
     #burger{
@@ -120,5 +124,25 @@ footer{
 
     .aboutContainer{
         flex-direction: column;
+    }
+}
+
+@keyframes expand {
+    from{
+        height: 50px;
+    }
+
+    to{
+        height: 200px;
+    }
+}
+
+@keyframes shrink {
+    from{
+        height: 200px;
+    }
+
+    to{
+        height: 50px;
     }
 }

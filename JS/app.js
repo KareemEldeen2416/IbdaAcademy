@@ -5,7 +5,7 @@ expand = "animation-name:expand;animation-duration:1s;visibility:visible;"+
 shrink = "animation-name:shrink;animation-duration:1s;visibility:hidden;"+
 "animation-fill-mode:forwards;"
 console.log(burgerButton);
-expanded = true;
+expanded = false;
 burgerButton.addEventListener("click",function(){
 if(expanded){
 nav.setAttribute("style",shrink);

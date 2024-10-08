@@ -84,7 +84,7 @@ h5{
 
 
 .apply{
-    background-color: white;
+    background-color: transparent;
     width: 100%;
     display: flex;
     justify-content: space-between;

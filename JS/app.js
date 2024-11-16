@@ -3,7 +3,7 @@ nav = document.getElementById("nav");
 expand = "animation-name:expand;animation-duration:1s;visibility:visible;"+
 "animation-fill-mode:forwards;";
 shrink = "animation-name:shrink;animation-duration:1s;visibility:hidden;"+
-"animation-fill-mode:forwards;"
+"animation-fill-mode:forwards;";
 console.log(burgerButton);
 expanded = false;
 burgerButton.addEventListener("click",function(){

@@ -11,6 +11,7 @@ p{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .test{
@@ -44,6 +45,8 @@ p{
     font-family: var(--font-type);
     font-weight: bold;
     border-radius: 50px;
+    margin-bottom: 50px;
+    width: 200px;
 }
 
 .applyButton:hover{

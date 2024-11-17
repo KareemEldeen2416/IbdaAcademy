@@ -17,7 +17,7 @@ h5 {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 
 }
@@ -106,4 +106,9 @@ h5 {
     background-color: var(--primaryColor);
     color: white;
     cursor: pointer;
+}
+
+
+@media() {
+    
 }

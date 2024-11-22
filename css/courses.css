@@ -25,7 +25,7 @@ h5 {
 .course {
     background-color: white;
     width: 300px;
-    height: 500px;
+    height: fit-content;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
@@ -44,6 +44,7 @@ h5 {
     margin-bottom: 15px;
     align-items: center;
     font-family: var(--font-type);
+    /* background-color: red; */
 }
 
 .instructorImage {
@@ -51,6 +52,37 @@ h5 {
     height: 50px;
     margin-left: 20px;
 }
+
+
+.detailButton{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border : none;
+    margin-right: 30%;
+    cursor:pointer;
+    transition-duration: 1s;
+    /* filter: drop-shadow(0 0 2px purple) */
+}
+
+/* .detailButton:hover{
+    transform: rotateZ(-180deg);
+} */
+
+
+
+.detailButtonImage{
+    width: 100%;
+}
+
+
+
+
+.courseDetails{
+    height: 0;
+    overflow: hidden;
+}
+
 
 .sessions {
     display: flex;

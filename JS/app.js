@@ -21,7 +21,7 @@ let arrowButton = document.getElementsByClassName("detailButton");
 let coursesDetails = document.getElementsByClassName("courseDetails");
 console.log(coursesDetails);
 console.log(arrowButton);
-let expandDetails = "height: 200px; transition-duration:1s;"
+let expandDetails = "height: 500px; transition-duration:1s;"
 let shrinkDetails = "height: 0px; transition-duration:1s;"
 let rotateIcon = "transform: rotateZ(-180deg); transition-duration: 1s; filter:drop-shadow(0 0 1px purple);"
 let reverseRotateIcon = "transform: rotateZ(0deg); transition-duration: 1s;"

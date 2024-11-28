@@ -16,6 +16,48 @@ h3{
     font-family: var(--font-type);
 }
 
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bannerImageContainer{
+    width: 50%;
+}
+
+.bannerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+}
+
+.bannerText{
+    width: calc(100%-30px);
+    padding:0 15px;
+    text-align: center;
+    border-radius: 40px;
+    color: white;
+    background-color: var(--primaryColor);
+    font-family: var(--font-type);
+}
+
+.bannerList{
+    color: grey;
+    padding-right: 50px;
+    font-family: var(--font-type);
+    font-weight: bold;
+}
+
+.bannerImage{
+    width: 100%;
+}
+
+
 .serviceDescription{
     background-color: var(--primaryColor);
     color: var(--secondaryColor);

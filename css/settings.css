@@ -10,6 +10,7 @@
 
 body{
     direction: rtl;
+    position: relative;
 }
 
 .navBar{
@@ -21,7 +22,7 @@ body{
     position: sticky;
     top: 0;
     z-index: 10;
-    filter: drop-shadow(0px 0px 5px gray);
+    filter: drop-shadow(0px 0px 2px gray);
     background-color: white;
     border-radius: 10px;
 }
@@ -50,6 +51,11 @@ body{
     filter: drop-shadow(1px 1px 30px purple);
     cursor:pointer;
 }
+
+#burger:active{
+    background-color: green;
+}
+
 .nav{
     display: flex;
     flex-wrap: wrap;
@@ -90,6 +96,28 @@ body{
     width: 95%;
     border-radius: 10px;
     margin: 20px auto;
+}
+
+.whatsappButton{
+    position: sticky;
+    top: 90%;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border:none;
+    filter: drop-shadow(0 0 2px green);
+    color:white;
+    background-color: green;
+    cursor: pointer;
+    z-index: 10;
+    transition-duration: 0.3s;
+}
+
+.whatsappButton:hover{
+    background-color: white;
+    color:green;
+    transform: scale(1.1);
 }
 
 

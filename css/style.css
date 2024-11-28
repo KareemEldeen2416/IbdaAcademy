@@ -123,6 +123,67 @@ h3{
 
 
 
+.questionBody{
+    padding:10px;
+    margin: 15px 0;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    filter: drop-shadow(0 0 5px gray);
+}
+
+.qustion{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+    /* background-color: red; */
+}
+
+
+.questionContent{
+    color: var(--primaryColor);
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--font-type);
+}
+
+.answer{
+    height: 0;
+    padding:20px;
+    font-family: var(--font-type);
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+    overflow: hidden;
+}
+
+.drop{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin-right: 30px;
+    color: var(--primaryColor)
+}
+
+
+
+
+
+.dropImage{
+    width: 100%;
+}
+
+
 
 
 .contact{
@@ -137,7 +198,7 @@ h3{
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    color: #fed700;
+    color: var(--secondaryColor);
     font-weight: bold;
 }
 
@@ -150,7 +211,13 @@ h3{
 
 
 a{
-    color: #fed700;
+    color: var(--secondaryColor);
+    transition-duration: 0.2s;
+}
+
+a:hover{
+    filter: drop-shadow(0 0 2px var(--secondaryColor));
+    transform: scale(1.1);
 }
 
 

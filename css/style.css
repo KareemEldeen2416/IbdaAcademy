@@ -124,7 +124,7 @@ h3{
 
 
 .questionBody{
-    padding:20px;
+    padding:20px 30px;
     margin: 15px 0;
     background-color: white;
     border-radius: 30px;
@@ -136,6 +136,7 @@ h3{
 
 .qustion{
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 10px;
     width: 100%;

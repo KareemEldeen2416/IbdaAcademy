@@ -21,7 +21,7 @@ let arrowButton = document.getElementsByClassName("detailButton");
 let coursesDetails = document.getElementsByClassName("courseDetails");
 console.log(coursesDetails);
 console.log(arrowButton);
-let expandDetails = "height: 500px; transition-duration:1s;"
+let expandDetails = "height:500px; transition-duration:1s;"
 let shrinkDetails = "height: 0px; transition-duration:1s;"
 let rotateIcon = "transform: rotateZ(-180deg); transition-duration: 1s; filter:drop-shadow(0 0 1px purple); background-color: var(--primaryColor); color:white;"
 let reverseRotateIcon = "transform: rotateZ(0deg); transition-duration: 1s;"
@@ -52,7 +52,7 @@ detailExpanded=true;
 // Set arrow for common questions
 let answers = document.getElementsByClassName("answer");
 let dropButtons = document.getElementsByClassName("drop");
-let expandDrop = "height: 100px; transition-duration:1s;"
+let expandDrop = "height:fit-content; transition-duration:1s;"
 dropExpanded = false;
 for(let i =0 ; i < dropButtons.length;i++){
 dropButtons[i].addEventListener("click",function(){

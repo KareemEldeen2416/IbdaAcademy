@@ -124,7 +124,7 @@ h3{
 
 
 .questionBody{
-    padding:10px;
+    padding:20px;
     margin: 15px 0;
     background-color: white;
     border-radius: 30px;
@@ -147,7 +147,7 @@ h3{
 .questionContent{
     color: var(--primaryColor);
     background-color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     font-family: var(--font-type);
 }

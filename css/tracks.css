@@ -1,10 +1,24 @@
+h2{
+    color:white;
+    font-family: var(--font-type);
+    font-weight: bold;
+    background-color: var(--primaryColor);
+    width: fit-content;
+    padding: 0 20px;
+    border-radius: 20px;
+}
+
 h3{
     font-family: var(--font-type);
-    font-size: 14px;
-    color: var(--primaryColor);
-    background-color: var(--secondaryColor);
-    display: block;
+    margin: 0;
+}
 
+
+h5{
+    display: inline;
+    font-family: var(--font-type);
+    width: fit-content;
+    margin-right: 10px;
 }
 
 .applyButton{
@@ -32,64 +46,42 @@ h3{
 }
 
 .track{
-    width: 400px;
-    margin-bottom: 100px;
-    padding: 60px 10px;
+    margin: 20px 0 ;
+    padding: 10px 30px;
+    width: 80%;
+    /* background-color: green; */
     border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 0 0 10px gray;
+    border-radius: 20px;
+    filter:drop-shadow(0 0 10px gray);
+    background-color: white;
 }
 
-
+.trackImage{
+    width: 100%;
+    border-radius: 40px;
+    margin-top:30px;
+}
 
 .trackContent{
+    /* background-color: white; */
     height: fit-content;
-    width: 90%;
     display: flex;
-    flex-direction: column;
     align-items: center;
-}
-
-.content{
-    height: fit-content;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .stage{
-    /* background-color:red; */
+    background-image: linear-gradient(-120deg,var(--secondaryColor),rgb(255, 255, 130));
+    width: 200px;
+    border-radius:30px;
+    padding:10px 20px;
+    margin: 10px;
+}
+
+.stageDetail{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 54%;
+    height: 25px;
 }
-
-.circle{
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    background-color: #0097ff;
-}
-
-.right{
-    direction: rtl
-}
-
-.left{
-    direction : ltr;
-    width: 55%;
-}
-
-.wire{
-    width: 5px;
-    height: 30px;
-    border-radius: 10px;
-    background-color: lightgray;
-}
-
-.removebg{
-    background-color:white;
-}
-
 

@@ -74,21 +74,20 @@ dropExpanded = true;
 /////////////////////////////////////////////
 
 // Projects slide show
-let imagesArray = ["frontproject1.jpg","frontproject2.jpg","frontproject3.jpg","frontproject4.jpg","frontproject5.jpg"];
-let projectTypes = ["Front-End","Back-End","Hello World","Project Management","AI"];
-let projectTitles = ["Online shopping","Watch website","Hello website","frontend mentor","Hamza Namira"];
-let proejectDescs=["One","Two","Three","Four","Five"];
+let imagesArray = ["frontproject1.jpg","frontproject2.jpg","frontproject3.jpg","frontproject4.jpg","photoshop1.png","photoshop2.png","photoshop3.png","photoshop4.png","photoshop5.png","photoshop6.png","scratch1.png","scratch2.png","scratch3.png"];
+let projectTypes = ["Front-End","Front-End","Front-End","Front-End","Front-End","Photoshop","Photoshop","Photoshop","Photoshop","Photoshop","Photoshop","Scratch","Scratch","Scratch"];
+let projectTitles = ["موقع تسوق الكتروني"," موقع الكتروني لحجز تذاكر السفر للرحلات","موقع الكتروني لحجز تذاكر السفر للرحلات","موقع لتصفح وشراء ساعات اليد عبر الانترنت","تصميم لمنتج غذائي","تصميم لمنتج غذائي","تصميم لمنشور علي مواقع التواصل","تصميم اعلان علي مواقع التواصل","تصميم لاضافة تأثيرات علي صورة","تصميم لاعلان تطبيق علي الهاتف"];
+// let proejectDescs=["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten"];
 let projectImage = document.getElementById("projectImage");
 let projectType = document.getElementById("projectType");
 let projectTitle = document.getElementById("projectTitle");
-let projectDetails = document.getElementById("projectDetails");
 let i =0;
 setInterval(function(){
 projectImage.setAttribute("src",("./images/"+imagesArray[i]));
 projectType.innerText = projectTypes[i];
 projectTitle.innerText = projectTitles[i];
-projectDetails.innerText = proejectDescs[i];
+// projectDetails.innerText = proejectDescs[i];
 i++;
 if(i==imagesArray.length){i=0}
-},3000);
+},2000);
 

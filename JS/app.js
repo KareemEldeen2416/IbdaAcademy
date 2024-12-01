@@ -69,3 +69,26 @@ dropExpanded = true;
 }
 
 
+
+
+/////////////////////////////////////////////
+
+// Projects slide show
+let imagesArray = ["frontproject1.jpg","frontproject2.jpg","frontproject3.jpg","frontproject4.jpg","frontproject5.jpg"];
+let projectTypes = ["Front-End","Back-End","Hello World","Project Management","AI"];
+let projectTitles = ["Online shopping","Watch website","Hello website","frontend mentor","Hamza Namira"];
+let proejectDescs=["One","Two","Three","Four","Five"];
+let projectImage = document.getElementById("projectImage");
+let projectType = document.getElementById("projectType");
+let projectTitle = document.getElementById("projectTitle");
+let projectDetails = document.getElementById("projectDetails");
+let i =0;
+setInterval(function(){
+projectImage.setAttribute("src",("./images/"+imagesArray[i]));
+projectType.innerText = projectTypes[i];
+projectTitle.innerText = projectTitles[i];
+projectDetails.innerText = proejectDescs[i];
+i++;
+if(i==imagesArray.length){i=0}
+},3000);
+

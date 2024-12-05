@@ -30,7 +30,7 @@ li{
 }
 
 .applyButton:hover{
-    background-color: var(--secondaryColor);
-    border: 5px solid var(--secondaryColor);
+    background-color: var(--primaryColor);
+    color: white;
     cursor: pointer;
 }

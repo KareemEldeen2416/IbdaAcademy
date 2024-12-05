@@ -74,8 +74,8 @@ dropExpanded = true;
 /////////////////////////////////////////////
 
 // Projects slide show
-let imagesArray = ["frontproject1.jpg","frontproject2.jpg","frontproject3.jpg","frontproject4.jpg","photoshop1.png","photoshop2.png","photoshop3.png","photoshop4.png","photoshop5.png","photoshop6.png","scratch1.png","scratch2.png","scratch3.png"];
-let projectTypes = ["Front-End","Front-End","Front-End","Front-End","Front-End","Photoshop","Photoshop","Photoshop","Photoshop","Photoshop","Photoshop","Scratch","Scratch","Scratch"];
+let imagesArray = ["frontproject1.jpg","frontproject2.jpg","frontproject3.jpg","frontproject4.jpg","photoshop1.PNG","photoshop2.PNG","photoshop3.PNG","photoshop4.PNG","photoshop5.PNG","photoshop6.PNG","scratch1.PNG","scratch2.PNG","scratch3.PNG"];
+let projectTypes = ["Front-End","Front-End","Front-End","Front-End","Photoshop","Photoshop","Photoshop","Photoshop","Photoshop","Photoshop","Photoshop","Scratch","Scratch","Scratch"];
 let projectTitles = ["موقع تسوق الكتروني"," موقع الكتروني لحجز تذاكر السفر للرحلات","موقع الكتروني لحجز تذاكر السفر للرحلات","موقع لتصفح وشراء ساعات اليد عبر الانترنت","تصميم لمنتج غذائي","تصميم لمنتج غذائي","تصميم لمنشور علي مواقع التواصل","تصميم اعلان علي مواقع التواصل","تصميم لاضافة تأثيرات علي صورة","تصميم لاعلان تطبيق علي الهاتف"];
 // let proejectDescs=["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten"];
 let projectImage = document.getElementById("projectImage");

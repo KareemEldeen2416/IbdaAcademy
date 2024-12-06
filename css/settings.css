@@ -54,9 +54,6 @@ body{
     cursor:pointer;
 }
 
-#burger:active{
-    background-color: green;
-}
 
 .nav{
     display: flex;

@@ -58,6 +58,11 @@ h3{
 }
 
 
+.serviceSection{
+    /* background-color: green; */
+    margin-top: 50px;
+}
+
 .serviceDescription{
     background-color: var(--primaryColor);
     color: var(--secondaryColor);

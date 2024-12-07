@@ -10,6 +10,7 @@
 }
 
 body{
+    background-color: white !important;
     direction: rtl;
     position: relative;
 }
